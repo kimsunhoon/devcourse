@@ -14,7 +14,7 @@
 <br>
 [240325](https://github.com/kimsunhoon/devcourse/tree/main/240325)
 <br>
-[240326](https://github.com/kimsunhoon/devcourse/tree/main/240325)
+[240326](https://github.com/kimsunhoon/devcourse/tree/main/240326)
 <br>
 [240327](https://github.com/kimsunhoon/devcourse/tree/main/240325)
 <br>
