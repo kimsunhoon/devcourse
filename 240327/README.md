@@ -7,3 +7,8 @@
 - MySQL workbench 설치 완료
 
 - DB 설계 예시
+
+<br>
+
+![image](https://github.com/kimsunhoon/devcourse/assets/96249610/01b9fb73-a5a1-410e-99d9-eec351ab5826)
+![image](https://github.com/kimsunhoon/devcourse/assets/96249610/63ea2140-443e-4fa2-b8d4-7fa454b09ac1)
