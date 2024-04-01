@@ -26,6 +26,11 @@ INSERT INTO `Channel`.`users` (`email`, `name`, `pwd`, `contact`) VALUES ('abc@n
 INSERT INTO `Channel`.`users` (`email`, `name`, `pwd`, `contact`) VALUES ('add@gmail.com', 'park', '54321', '010-3145-5156');
 INSERT INTO `Channel`.`users` (`email`, `name`, `pwd`, `contact`) VALUES ('kkiiu@naver.com', 'lee', '1111', '010-7222-1512');
 ```
+```
+// 컬럼 추가 예시
+ALTER TABLE `Channel`.`users` 
+ADD COLUMN `create_at` TIMESTAMP NULL DEFAULT NOW() AFTER `contact`;
+```
 
 ### DB 연동
 - npm-> mysql2 패키지 설치
@@ -45,8 +50,7 @@ const connection = mysql.createConnection({
 // Using placeholders
 connection.query(
   'SELECT * FROM `users`',
-  ['Page', 45],
-  function (err, results) {
+  function (err, results.fields) {
     console.log(results);
   }
 );
